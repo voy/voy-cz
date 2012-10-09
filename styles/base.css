@@ -1,0 +1,72 @@
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 12px;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: -180px;
+  height: 224px;
+  font-family: Oxygen;
+}
+section h1 {
+  margin-bottom: 20px;
+}
+section ul i {
+  padding-right: 3px;
+}
+section ul i.icon-envelope {
+  vertical-align: -20%;
+}
+section ul.social li {
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.6s ease;
+  margin-right: 5px;
+  display: inline-block;
+}
+section ul.social li:hover {
+  -webkit-filter: grayscale(0);
+}
+section ul.social a {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+section ul.social a.twitter {
+  background: transparent url("../images/twitter.png") no-repeat;
+  text-indent: -5000px;
+}
+section ul.social a.github {
+  background: transparent url("../images/github.png") no-repeat;
+  text-indent: -5000px;
+}
+section ul.social a.linkedin {
+  background: transparent url("../images/linkedin.png") no-repeat;
+  text-indent: -5000px;
+}
+ul.tech {
+  margin-top: 20px;
+}
+ul.tech li {
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.6s ease;
+  width: 100px;
+  line-height: 75px;
+  display: inline-block;
+  margin-right: 20px;
+}
+ul.tech li:hover {
+  -webkit-filter: grayscale(0);
+}
+ul.tech li.javascript {
+  background: transparent url("../images/javascript.png") no-repeat;
+  text-indent: -5000px;
+}
+ul.tech li.python {
+  background: transparent url("../images/python.png") no-repeat;
+  text-indent: -5000px;
+}
+ul.tech li.html5 {
+  background: transparent url("../images/html5.png") no-repeat;
+  text-indent: -5000px;
+}

@@ -1,0 +1,66 @@
+icon(imageFile)
+    background transparent url(imageFile) no-repeat
+    text-indent -5000px
+
+section
+    position absolute;
+    top 50%
+    left 50%
+    border-radius 12px
+    width 500px
+    margin-left -250px
+    margin-top -180px
+    height 224px
+    font-family Oxygen
+
+    h1
+        margin-bottom 20px
+
+    ul i
+        padding-right 3px
+
+        &.icon-envelope
+            vertical-align -20%
+
+    ul.social
+        li
+            -webkit-filter grayscale(1)
+            -webkit-transition all 0.6s ease
+            margin-right 5px
+            display inline-block
+
+        li:hover
+            -webkit-filter grayscale(0)
+
+        a
+            display block
+            width 32px
+            height 32px
+
+        a.twitter
+            icon '../images/twitter.png'
+        a.github
+            icon '../images/github.png'
+        a.linkedin
+            icon '../images/linkedin.png'
+
+ul.tech
+    margin-top 20px
+
+    li
+        -webkit-filter grayscale(1)
+        -webkit-transition all 0.6s ease
+        width 100px
+        line-height 75px
+        display inline-block
+        margin-right 20px
+
+    li:hover
+        -webkit-filter grayscale(0)
+
+    li.javascript
+        icon '../images/javascript.png'
+    li.python
+        icon '../images/python.png'
+    li.html5
+        icon '../images/html5.png'
